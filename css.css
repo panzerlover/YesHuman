@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+html {
+    background: linear-gradient(to right, white, blanchedalmond, blanchedalmond 5%, blanchedalmond 95%, blanchedalmond, white)
+}
+
+.human {
+    background-color: blanchedalmond;
+    margin: 0 4rem 6rem;
+}
+
+.alien {
+    padding: 60rem 4rem 0;
+    background-color: white;
+    border-top: 0.1rem solid black;
+    color:rgb(0, 0, 0);
+}
+
+#caption {
+    font-size: smaller;
+    margin: 0 auto 0;
+    display: block;
+    max-width: 40%;
+}
+
+#image {
+    max-width: 40%;
+    margin: 0 auto 0;
+    display: block;
+    border-radius: 5%;
+    border: 1rem solid white;
+}
+
+#falseFooter {
+    margin: 0 auto 0;
+    max-width: 60%;
+    display: block;
+    text-align: center;
+}
+
+#backToTop {
+    text-align: center;
+    padding: 3rem 0 0;
+}
+header {
+    margin: 0;
+    padding: 1rem;
+    background-image: linear-gradient(to right, blanchedalmond, rgb(241, 197, 131), blanchedalmond);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.199);
+}
+
+h1 {
+    background-image: linear-gradient(to right, rgba(255, 235, 205, 0.103), rgba(241, 197, 131, 0.486), rgba(255, 235, 205, 0.103));
+}
+
+h1,h2,h3 {
+    margin: 0.5rem, ;
+    padding: 1rem;
+    text-align: center;
+}
+
+p {
+    max-width: 60%;
+    text-align: left;
+    margin: 0.5rem auto;
+    display: block;
+}
+
+ul, ol {
+    margin: 4rem 0;
+    padding: 1rem;
+    margin: 0 auto;
+    display: block;
+    text-align: left;
+    margin-left: 25%;
+    text-indent: 1rem;
+}
+.alienIndent {
+    padding: 0;
+    margin-left: 2rem;
+}
+
+li {
+    padding: 0.1rem;
+}
